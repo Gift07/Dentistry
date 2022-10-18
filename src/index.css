@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.radial {
+  background-image: radial-gradient(
+    48% 20% at 45% 47%,
+    #02ffdd 0%,
+    #1e1e1e 100%
+  );
+}
+
+.navbar {
+  background-image: radial-gradient(circle, #02ffdd 20%, #1e1e1e, #1e1e1e);
+  opacity: 0.3;
+}
