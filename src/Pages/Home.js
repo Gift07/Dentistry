@@ -7,10 +7,13 @@ import Objects from "../Components/Home/Objects";
 import Technology from "../Components/Home/Technology";
 import Welcome from "../Components/Home/Welcome";
 import Navbar from "../Components/Navbar";
+import Register from "../Components/Popups/Register";
 
 const Home = () => {
+  const [popup, setPopup] = React.useState(false);
   return (
     <div className="bg-[#1E1E1E] min-h-screen font-poppins overflow-hidden">
+      {popup && <Register />}
       <Navbar />
       <Welcome />
       <Objects />

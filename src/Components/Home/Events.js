@@ -4,16 +4,24 @@ import Illustration from "../../assets/Illustration.svg";
 
 const Events = () => {
   return (
-    <div className="w-full py-8 px-10 relative">
+    <div className="w-full py-6 lg:py-8 px-10 md:px-16 lg:px-24  relative">
       <div>
-        <div className="text-5xl font-semibold text-white flex gap-x-2 ">
+        <div className="text-2xl md:text-3xl lg:text-5xl font-semibold text-white flex items-center lg:gap-x-2 ">
           <h1 className="text-[#02ffdd]">Enlargements, Events</h1>
-          <h1>and</h1>
         </div>
-        <h1 className="text-5xl text-[#02ffdd] font-semibold">Retro-festo</h1>
+        <h1 className="text-white font-semibold text-2xl md:text-3xl lg:text-5xl">
+          and
+        </h1>
       </div>
+      <h1 className="text-2xl md:text-3xl lg:text-5xl text-[#02ffdd] font-semibold">
+        Retro-festo
+      </h1>
       <div className="w-full flex items-center justify-center z-50">
-        <img src={Illustration} alt="illustration" className="h-[35rem]" />
+        <img
+          src={Illustration}
+          alt="illustration"
+          className="h-96 md:h-[28rem] lg:h-[35rem]"
+        />
       </div>
       {/* <div className="w-full absolute top-0 -right-[39rem]">
         <img src={Grooup1} alt="group" className="h-[42rem] -z-20" />
@@ -34,7 +42,7 @@ const Events = () => {
         </button>
       </div>
       <div className="pt-12 w-full flex items-center justify-center">
-        <hr className="h-3 w-[472px] bg-[#02ffdd] opacity-30 rounded-full" />
+        <hr className="h-3 w-[200px] lg:w-[472px] bg-[#02ffdd] opacity-30 rounded-full" />
       </div>
     </div>
   );

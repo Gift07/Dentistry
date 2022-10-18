@@ -1,7 +1,13 @@
 import React from "react";
 import Group from "../../assets/Group.svg";
 import Flutter from "../../assets/Flutter.svg";
+import Javascript from "../../assets/Nodejs.svg";
+import Figma from "../../assets/Figma Logo.svg";
+import ReactLogo from "../../assets/React.svg";
 import TechnologyCard from "./Components/TechnologyCard";
+import Union from "../../assets/Union.svg";
+import Union1 from "../../assets/Union1.svg";
+import Eclipse from "../../assets/Ellipse 8.svg";
 
 const Technology = () => {
   return (
@@ -14,12 +20,22 @@ const Technology = () => {
           Providers
         </h1>
       </div>
-      <div className="w-full flex items-center justify-center py-8">
+      <div className="absolute right-0 top-16">
+        <img src={Union} alt="union" className="h-96" />
+      </div>
+      <div className="w-full flex items-center justify-center py-8 relative">
         <img
           src={Group}
           alt="group"
           className="w-full h-[300px] object-contain"
         />
+        <div className="w-full absolute top-0">
+          <img
+            src={Eclipse}
+            alt="eclipse"
+            className="h-[40rem] w-full object-fill "
+          />
+        </div>
       </div>
       <div>
         <p className="text-white font-light">
@@ -36,13 +52,22 @@ const Technology = () => {
           get started
         </button>
       </div>
-      <div className="w-full flex items-center justify-center">
+      <div className="hidden w-full lg:flex lg:items-center lg:justify-center">
         <div className="w-full grid grid-cols-2 gap-6">
-          <TechnologyCard Flutter={Flutter} />
-          <TechnologyCard Flutter={Flutter} />
-          <TechnologyCard Flutter={Flutter} />
-          <TechnologyCard Flutter={Flutter} />
+          <TechnologyCard Flutter={Flutter} title={"Flutter"} />
+          <TechnologyCard Flutter={ReactLogo} title={"React js"} />
+          <TechnologyCard Flutter={Figma} title={"Figma"} />
+          <TechnologyCard Flutter={Javascript} title={"Java script"} />
         </div>
+      </div>
+      <div className="w-full flex flex-col items-center justify-center lg:hidden">
+        <TechnologyCard Flutter={Flutter} title={"Flutter"} />
+        <TechnologyCard Flutter={ReactLogo} title={"React js"} />
+        <TechnologyCard Flutter={Figma} title={"Figma"} />
+        <TechnologyCard Flutter={Javascript} title={"Java script"} />
+      </div>
+      <div className="absolute left-0 top-64">
+        <img src={Union1} alt="union1" className="w-[124px] object-contain" />
       </div>
       <div className="pt-12 w-full flex items-center justify-center">
         <hr className="h-3 w-[472px] bg-[#02ffdd] opacity-30 rounded-full" />

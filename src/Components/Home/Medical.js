@@ -2,6 +2,9 @@ import React from "react";
 import Group7 from "../../assets/Group 7.svg";
 import Eclipse from "../../assets/Ellipse 12.svg";
 import Frame1 from "../../assets/Frame 1.svg";
+import Frame2 from "../../assets/Frame 3.svg";
+import Frame3 from "../../assets/Frame 2.svg";
+import Frame4 from "../../assets/Frame 4.svg";
 import MedicalCard from "./Components/MedicalCard";
 import Union from "../../assets/Union.svg";
 
@@ -36,16 +39,16 @@ const Medical = () => {
         </button>
       </div>
       <div className="flex flex-col lg:hidden items-center justify-center gap-x-8 my-10">
+        <MedicalCard eclipse={Eclipse} frame={Frame2} />
         <MedicalCard eclipse={Eclipse} frame={Frame1} />
-        <MedicalCard eclipse={Eclipse} frame={Frame1} />
-        <MedicalCard eclipse={Eclipse} frame={Frame1} />
-        <MedicalCard eclipse={Eclipse} frame={Frame1} />
+        <MedicalCard eclipse={Eclipse} frame={Frame3} />
+        <MedicalCard eclipse={Eclipse} frame={Frame4} />
       </div>
       <div className="lg:flex hidden lg:items-center lg:justify-center lg:gap-x-8 lg:my-10">
+        <MedicalCard eclipse={Eclipse} frame={Frame2} />
         <MedicalCard eclipse={Eclipse} frame={Frame1} />
-        <MedicalCard eclipse={Eclipse} frame={Frame1} />
-        <MedicalCard eclipse={Eclipse} frame={Frame1} />
-        <MedicalCard eclipse={Eclipse} frame={Frame1} />
+        <MedicalCard eclipse={Eclipse} frame={Frame3} />
+        <MedicalCard eclipse={Eclipse} frame={Frame4} />
       </div>
       <div className="pt-12 w-full flex items-center justify-center">
         <hr className="h-3 w-[472px] bg-[#02ffdd] opacity-30 rounded-full" />
