@@ -16,7 +16,7 @@ const Welcome = () => {
             <h1 className="my-2">Together</h1>
           </div>
           <div className="my-3 lg:my-4">
-            <h1 className="text-white text-sm lg:text-md font-thin">
+            <h1 className="text-white text-sm lg:text-md font-lightpriego ">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </h1>
           </div>

@@ -42,7 +42,7 @@ const Welcome = () => {
         </div>
       </div>
       <div className="px-10 md:px-16 lg:px-24">
-        <p className="text-white font-light">
+        <p className="text-white font-lightpriego">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
       </div>

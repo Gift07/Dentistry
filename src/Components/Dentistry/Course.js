@@ -6,7 +6,7 @@ const Course = () => {
   return (
     <div className="w-full bg-white">
       <div className="py-3 w-full flex items-center justify-center pt-10">
-        <h1 className="text-3xl lg:text-4xl">Courses</h1>
+        <h1 className="text-3xl lg:text-4xl font-lightpriego">Courses</h1>
       </div>
       <div className="w-full flex items-center justify-center py-4">
         <img
@@ -25,7 +25,7 @@ const Course = () => {
           The oral cavity
         </h1>
         <div>
-          <ol className="py-3 lg:py-4">
+          <ol className="py-3 lg:py-4 font-lightpriego">
             <li className="flex items-center gap-x-2">
               <BsDot size={17} /> The Interplay between Medical & Dentistry{" "}
             </li>

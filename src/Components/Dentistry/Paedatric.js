@@ -22,7 +22,7 @@ const Paedatric = () => {
           Paediatric Dentistry for Specialists
         </h1>
         <div>
-          <ol className="py-4">
+          <ol className="py-4 font-lightpriego">
             <li className="flex items-center gap-x-2">
               <BsDot size={17} />
               Prevention and management of caries and treatment planning basics

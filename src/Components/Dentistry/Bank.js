@@ -5,7 +5,7 @@ const Bank = () => {
   return (
     <div className="w-full bg-white">
       <div className="w-full flex flex-col items-center justify-center py-8">
-        <h1 className="text-3xl">Knowledge bank</h1>
+        <h1 className="text-3xl font-lightpriego">Knowledge bank</h1>
         <img src={Building} alt="building" className="h-32 py-4" />
       </div>
       <div className="w-full flex flex-col items-center justify-center pb-4">

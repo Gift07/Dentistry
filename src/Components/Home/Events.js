@@ -43,8 +43,9 @@ const Events = () => {
           nostra.
         </p>
       </div>
-      <div className="py-4">
-        <button className="px-5 py-2 text-lg font-semibold bg-[#02ffdd] rounded-full">
+      <div className="relative py-3">
+        <div className="bg-[#02ffdd] shadow-2xl opacity-40 h-10 w-32 absolute rounded-full shadow-[#02ffdd]" />
+        <button className="px-5 py-2 text-lg font-semibold bg-[#02ffdd] rounded-full absolute z-10">
           get started
         </button>
       </div>

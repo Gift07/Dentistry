@@ -22,7 +22,7 @@ module.exports = {
       addBase({
         "@font-face": {
           fontFamily: "Priego-light",
-          fontWeight: "100",
+          fontWeight: "300",
           src: "url(/src/fonts/Priego-light.ttf)",
         },
         "@font-face": {

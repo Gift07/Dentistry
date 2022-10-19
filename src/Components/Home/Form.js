@@ -28,8 +28,9 @@ const Form = () => {
               className="py-3 px-6 my-3 outline-none border-r border-[#02ffdd] border-opacity-30 shadow-2xl rounded-full focus:border-2 focus:border-[#02ffdd] bg-[#1e1e1e] w-full"
             />
           </div>
-          <div>
-            <button className="bg-[#02ffdd] shadow-2xl rounded-full  w-full flex items-center justify-center text-xl font-semibold py-4">
+          <div className="relative py-6">
+            <div className="bg-[#02ffdd] shadow-2xl opacity-40 h-14 w-10/12 absolute rounded-full shadow-[#02ffdd]" />
+            <button className="bg-[#02ffdd] shadow-2xl rounded-full  w-full flex items-center justify-center text-xl font-semibold py-4 text-black">
               Submit
             </button>
           </div>
