@@ -21,10 +21,14 @@ const Medical = () => {
         Equipments.
       </h1>
       <div className="w-full flex items-center justify-center my-8">
-        <img src={Group7} alt="group" className="h-[300px]" />
+        <img
+          src={Group7}
+          alt="group"
+          className="h-[300px] drop-shadow-xl shadow-[#02ffdd]"
+        />
       </div>
       <div>
-        <p className="text-white text-sm lg:text-md font-light my-6 lg:my-10">
+        <p className="text-white text-sm lg:text-md font-lightpriego my-6 lg:my-10">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
           turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec
           fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus
@@ -33,8 +37,9 @@ const Medical = () => {
           nostra.
         </p>
       </div>
-      <div>
-        <button className="px-5 py-2 text-lg font-semibold bg-[#02ffdd] rounded-full">
+      <div className="relative py-3">
+        <div className="bg-[#02ffdd] shadow-2xl opacity-40 h-10 w-32 absolute rounded-full shadow-[#02ffdd]" />
+        <button className="px-5 py-2 text-lg font-semibold bg-[#02ffdd] rounded-full absolute z-10">
           get started
         </button>
       </div>

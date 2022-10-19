@@ -3,9 +3,9 @@ import Person from "../../assets/XMLID_338_.svg";
 import Person2 from "../../assets/XMLID_332_.svg";
 import Person3 from "../../assets/XMLID_336_.svg";
 
-const Register = () => {
+const Verify = () => {
   return (
-    <div className="z-50 fixed top-0 bg-transparent backdrop-blur-md backdrop-filter w-screen h-screen lg:min-h-screen lg:py-4 flex items-center justify-center">
+    <div className="z-50 fixed top-0 bg-transparent backdrop-blur-md backdrop-filter w-screen h-screen flex items-center justify-center">
       <div className="w-11/12 md:w-8/12 lg:w-1/2 bg-[#2b275a] rounded-2xl p-2">
         <div className="flex items-center justify-center gap-x-6 my-4">
           <div>
@@ -45,24 +45,41 @@ const Register = () => {
         </div>
         <div>
           <div className="px-6">
-            <h1 className="text-lg text-orange-400 font-semibold">Register</h1>
+            <h1 className="text-lg text-orange-400 font-semibold">
+              Verification Code
+            </h1>
           </div>
           <form>
-            <div className="w-full flex items-center justify-center py-3">
-              <input
-                placeholder="Email Id"
-                className="flex p-2 items-center justify-center w-11/12 h-16 rounded-full outline-none bg-[#2b275a] shadow-xl  drop-shadow-lg"
-              />
+            <div className="w-full flex items-center justify-center font-lightpriego gap-x-6">
+              <div className="flex items-center justify-center py-3">
+                <input
+                  maxLength={1}
+                  className="text-center p-2 w-12 h-12 text-gray-100 flex items-center justify-center rounded-full outline-none bg-[#2b275a] shadow-xl  drop-shadow-lg"
+                />
+              </div>
+              <div className="flex items-center justify-center py-3">
+                <input
+                  maxLength={1}
+                  className="text-center p-2 w-12 h-12 text-gray-100 flex items-center justify-center rounded-full outline-none bg-[#2b275a] shadow-xl  drop-shadow-lg"
+                />
+              </div>
+              <div className="flex items-center justify-center py-3">
+                <input
+                  maxLength={1}
+                  className="text-center p-2 w-12 h-12 text-gray-100 flex items-center justify-center rounded-full outline-none bg-[#2b275a] shadow-xl  drop-shadow-lg"
+                />
+              </div>
+              <div className="flex items-center justify-center py-3">
+                <input
+                  maxLength={1}
+                  className="text-center p-2 w-12 h-12 text-gray-100 flex items-center justify-center rounded-full outline-none bg-[#2b275a] shadow-xl  drop-shadow-lg"
+                />
+              </div>
             </div>
-            <div className="w-full flex items-center justify-center py-3">
-              <input
-                placeholder="Phone number"
-                className="flex p-2 items-center justify-center w-11/12 h-16 rounded-full outline-none bg-[#2b275a] shadow-xl  drop-shadow-lg"
-              />
-            </div>
+
             <div className="py-3 w-full flex items-center justify-center">
               <button className=" w-11/12 py-3 uppercase bg-white rounded-full font-bold text-[#2b275a] drop-shadow">
-                Submit
+                Verify
               </button>
             </div>
           </form>
@@ -72,4 +89,4 @@ const Register = () => {
   );
 };
 
-export default Register;
+export default Verify;

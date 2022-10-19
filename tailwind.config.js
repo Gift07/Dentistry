@@ -13,6 +13,7 @@ module.exports = {
       },
       fontFamily: {
         poppins: ["Priego", "Sans-serif"],
+        lightpriego: ["Priego-light"],
       },
     },
   },
@@ -20,9 +21,44 @@ module.exports = {
     plugin(function ({ addBase }) {
       addBase({
         "@font-face": {
-          fontFamily: "Priego",
-          fontWheight: "300",
+          fontFamily: "Priego-light",
+          fontWeight: "100",
           src: "url(/src/fonts/Priego-light.ttf)",
+        },
+        "@font-face": {
+          fontFamily: "Priego",
+          fontWeight: "200",
+          src: "url(/src/fonts/priego-extralight.otf)",
+        },
+        "@font-face": {
+          fontFamily: "Priego",
+          fontWeight: "300",
+          src: "url(/src/fonts/priego-light.otf)",
+        },
+        "@font-face": {
+          fontFamily: "Priego",
+          fontWeight: "400",
+          src: "url(/src/fonts/priego-medium.otf)",
+        },
+        "@font-face": {
+          fontFamily: "Priego",
+          fontWeight: "500",
+          src: "url(/src/fonts/priego-semibold.otf)",
+        },
+        "@font-face": {
+          fontFamily: "Priego",
+          fontWheight: "600",
+          src: "url(/src/fonts/priego-bold.otf)",
+        },
+        "@font-face": {
+          fontFamily: "Priego",
+          fontWheight: "700",
+          src: "url(/src/fonts/priego-extrabold.otf)",
+        },
+        "@font-face": {
+          fontFamily: "Priego",
+          fontWheight: "800",
+          src: "url(/src/fonts/priego-black.otf)",
         },
       });
     }),

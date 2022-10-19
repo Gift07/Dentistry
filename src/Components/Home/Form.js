@@ -2,14 +2,14 @@ import React from "react";
 
 const Form = () => {
   return (
-    <div className="py-8 pt-4 px-10">
+    <div className="py-8 pt-4 px-8 md:16 lg:px-24">
       <div>
         <h1 className="text-2xl md:text-3xl lg:text-5xl py-3 font-bold text-white">
           Contact us
         </h1>
       </div>
       <div>
-        <form>
+        <form className="font-lightpriego">
           <div>
             <input
               placeholder="Name"

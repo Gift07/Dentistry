@@ -1,4 +1,5 @@
 import React from "react";
+import { AiOutlineMinus } from "react-icons/ai";
 import Grooup1 from "../../assets/Group (1).svg";
 import Illustration from "../../assets/Illustration.svg";
 
@@ -13,14 +14,16 @@ const Events = () => {
           and
         </h1>
       </div>
-      <h1 className="text-2xl md:text-3xl lg:text-5xl text-[#02ffdd] font-semibold">
-        Retro-festo
+      <h1 className="text-2xl md:text-3xl lg:text-5xl text-[#02ffdd] font-semibold flex items-center">
+        Retro
+        <AiOutlineMinus />
+        festo
       </h1>
       <div className="w-full flex items-center justify-center  relative">
         <img
           src={Illustration}
           alt="illustration"
-          className="h-80 md:h-[26rem] lg:h-[28rem] z-50"
+          className="h-80 md:h-[26rem] lg:h-[28rem] z-50 shadow-[#02ffdd] filter drop-shadow-2xl"
         />
         <div className="w-full absolute -top-18 -right-8 lg:-right-20">
           <img
@@ -31,7 +34,7 @@ const Events = () => {
         </div>
       </div>
       <div>
-        <p className="text-white">
+        <p className="text-white font-lightpriego">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
           turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec
           fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus

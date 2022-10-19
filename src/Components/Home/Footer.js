@@ -17,7 +17,7 @@ const Footer = () => {
         </h1>
       </div>
       <div>
-        <p className="text-white font-light max-w-md py-4">
+        <p className="text-white font-lightpriego max-w-md py-4">
           We work together to dream, create and produce work that we are proud
           of for folks that we believe in. We crop 21st century produce and
           encourage our tribes to push themselves.
@@ -25,20 +25,20 @@ const Footer = () => {
       </div>
       <div className="py-4 lg:py-8">
         <h1 className="font-bold text-xl py-2">Address</h1>
-        <div>
+        <div className="font-lightpriego">
           <p>DreamRoots Entertainment and Technology Private Ltd.</p>
           <p>Indiranagar, Bangalore 560038</p>
         </div>
       </div>
       <div className="py-4 lg:py-8">
         <h1 className="font-bold text-xl py-2">Contact</h1>
-        <div>
+        <div className="font-lightpriego">
           <p>info@pluginbaby.co</p>
         </div>
       </div>
       <div className="py-4 lg:py-8">
         <h1 className="font-bold text-xl py-2">Gst</h1>
-        <div>
+        <div className="font-lightpriego">
           <p>29AAGCD5678Q1ZM</p>
         </div>
       </div>
