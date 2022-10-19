@@ -1,10 +1,10 @@
 import React from "react";
-import Grooup1 from "../../assets/Group (2).svg";
+import Grooup1 from "../../assets/Group (1).svg";
 import Illustration from "../../assets/Illustration.svg";
 
 const Events = () => {
   return (
-    <div className="w-full py-6 lg:py-8 px-10 md:px-16 lg:px-24  relative">
+    <div className="w-full py-6 lg:py-8 px-8 md:px-16 lg:px-24">
       <div>
         <div className="text-2xl md:text-3xl lg:text-5xl font-semibold text-white flex items-center lg:gap-x-2 ">
           <h1 className="text-[#02ffdd]">Enlargements, Events</h1>
@@ -16,16 +16,20 @@ const Events = () => {
       <h1 className="text-2xl md:text-3xl lg:text-5xl text-[#02ffdd] font-semibold">
         Retro-festo
       </h1>
-      <div className="w-full flex items-center justify-center z-50">
+      <div className="w-full flex items-center justify-center  relative">
         <img
           src={Illustration}
           alt="illustration"
-          className="h-96 md:h-[28rem] lg:h-[35rem]"
+          className="h-80 md:h-[26rem] lg:h-[28rem] z-50"
         />
+        <div className="w-full absolute -top-18 -right-8 lg:-right-20">
+          <img
+            src={Grooup1}
+            alt="group"
+            className="h-[32rem] -z-20 w-full object-cover"
+          />
+        </div>
       </div>
-      {/* <div className="w-full absolute top-0 -right-[39rem]">
-        <img src={Grooup1} alt="group" className="h-[42rem] -z-20" />
-      </div> */}
       <div>
         <p className="text-white">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu

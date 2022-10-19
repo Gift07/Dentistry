@@ -11,7 +11,7 @@ import Eclipse from "../../assets/Ellipse 8.svg";
 
 const Technology = () => {
   return (
-    <div className="py-8 px-10 lg:px-24 relative">
+    <div className="py-8 px-8 lg:px-24 relative">
       <div className="flex flex-col">
         <div className="flex items-center gap-x-2 text-white text-2xl md:text-3xl lg:text-5xl font-bold">
           <h1 className="text-[#02ffdd]">Technology Software</h1>
@@ -52,7 +52,7 @@ const Technology = () => {
           get started
         </button>
       </div>
-      <div className="hidden w-full lg:flex lg:items-center lg:justify-center">
+      <div className="w-full flex items-center justify-center">
         <div className="w-full grid grid-cols-2 gap-6">
           <TechnologyCard Flutter={Flutter} title={"Flutter"} />
           <TechnologyCard Flutter={ReactLogo} title={"React js"} />
@@ -60,17 +60,11 @@ const Technology = () => {
           <TechnologyCard Flutter={Javascript} title={"Java script"} />
         </div>
       </div>
-      <div className="w-full flex flex-col items-center justify-center lg:hidden">
-        <TechnologyCard Flutter={Flutter} title={"Flutter"} />
-        <TechnologyCard Flutter={ReactLogo} title={"React js"} />
-        <TechnologyCard Flutter={Figma} title={"Figma"} />
-        <TechnologyCard Flutter={Javascript} title={"Java script"} />
-      </div>
-      <div className="absolute left-0 top-64">
-        <img src={Union1} alt="union1" className="w-[124px] object-contain" />
+      <div className="absolute left-0 -bottom-16">
+        <img src={Union1} alt="union1" className="w-20 object-contain" />
       </div>
       <div className="pt-12 w-full flex items-center justify-center">
-        <hr className="h-3 w-[472px] bg-[#02ffdd] opacity-30 rounded-full" />
+        <hr className="h-3 w-[200px] lg:w-[472px] bg-[#02ffdd] opacity-30 rounded-full" />
       </div>
     </div>
   );

@@ -1,8 +1,15 @@
 import React from "react";
+import { useLocation } from "react-router-dom";
 
 const Footer = () => {
+  const { pathname } = useLocation();
+
   return (
-    <div className="w-full bg-[#0b0b0b] py-4 px-10 md:px-16 lg:px-24 text-white">
+    <div
+      className={`${
+        pathname === "/dentistry" && "pt-56"
+      } w-full bg-[#0b0b0b] py-4 px-8 md:px-16 lg:px-24 text-white`}
+    >
       <div>
         <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold text-[#02ffdd]">
           DreamRoots Entertainment and

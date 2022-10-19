@@ -10,7 +10,7 @@ import Union from "../../assets/Union.svg";
 
 const Medical = () => {
   return (
-    <div className="py-10 md:py-12 lg:py-16 px-10 md:px-16 lg:px-24">
+    <div className="py-10 md:py-12 lg:py-16 px-8 md:px-16 lg:px-24">
       <div className="pt-16 md:pt-28 lg:pt-32 text-[1.2rem] md:text-3xl lg:text-5xl font-bold text-white w-full">
         <div className="flex items-center gap-x-[4px] lg:gap-x-2 ">
           <h1>Manufacture Of</h1>
@@ -38,13 +38,7 @@ const Medical = () => {
           get started
         </button>
       </div>
-      <div className="flex flex-col lg:hidden items-center justify-center gap-x-8 my-10">
-        <MedicalCard eclipse={Eclipse} frame={Frame2} />
-        <MedicalCard eclipse={Eclipse} frame={Frame1} />
-        <MedicalCard eclipse={Eclipse} frame={Frame3} />
-        <MedicalCard eclipse={Eclipse} frame={Frame4} />
-      </div>
-      <div className="lg:flex hidden lg:items-center lg:justify-center lg:gap-x-8 lg:my-10">
+      <div className="flex items-center justify-center gap-x-8 my-10">
         <MedicalCard eclipse={Eclipse} frame={Frame2} />
         <MedicalCard eclipse={Eclipse} frame={Frame1} />
         <MedicalCard eclipse={Eclipse} frame={Frame3} />
