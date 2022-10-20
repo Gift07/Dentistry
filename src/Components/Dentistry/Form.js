@@ -3,9 +3,9 @@ import React from "react";
 const Form = () => {
   return (
     <div className="w-full bg-white flex items-center justify-center relative pt-56 lg:pt-48">
-      <div className="w-11/12 md:w-8/12 lg:w-1/2 p-4 shadow-2xl bg-gray-50 z-50 absolute">
+      <div className="w-11/12 md:w-8/12 lg:w-1/2 p-4  bg-[#f7f7f7] z-50 absolute">
         <div className="text-[#0b0b0b] text-2xl">
-          <h1>Submit Form</h1>
+          <h1 className="text-2xl text-[#313131]">Submit Form</h1>
           <h1 className="text-[#02ffdd]">Franchise Enquiry</h1>
         </div>
         <div>
@@ -13,20 +13,20 @@ const Form = () => {
             <div>
               <input
                 placeholder="Name"
-                className="py-3 px-6 my-3  outline-none border-r border-[#02ffdd] border-opacity-30 shadow-2xl rounded-full focus:border-2 focus:border-[#02ffdd] bg-[#fff] w-full"
+                className="h-[45px] px-6 my-3  outline-none rounded-full focus:border-2 focus:border-[#02ffdd] bg-[#fff] w-full"
               />
             </div>
             <div>
               <input
                 placeholder="Email"
-                className="py-4 px-6 my-3  outline-none border-r border-[#02ffdd] border-opacity-30 shadow-2xl rounded-full focus:border-2 focus:border-[#02ffdd] bg-[#fff] w-full form-text"
+                className="h-[45px] px-6 my-3  outline-none rounded-full focus:border-2 focus:border-[#02ffdd] bg-[#fff] w-full"
               />
             </div>
             <div className="relative mb-20">
-              <div className="absolute z-20 top-7 left-2">+91-</div>
+              <div className="absolute z-20 top-6 left-2">+91-</div>
               <input
                 placeholder="Phone number"
-                className="py-3 px-6 my-3 absolute outline-none border-r pl-9 border-[#02ffdd] border-opacity-30 shadow-2xl rounded-full focus:border-2 focus:border-[#02ffdd] bg-[#fff] w-full"
+                className="py-3 h-[45px] my-3 absolute outline-none pl-10 rounded-full focus:border-2 focus:border-[#02ffdd] bg-[#fff] w-full"
               />
             </div>
             <div>
