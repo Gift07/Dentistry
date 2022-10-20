@@ -45,7 +45,7 @@ const Dental = () => {
           </ol>
         </div>
         <div className="w-full flex items-center justify-end">
-          <button className="px-5 py-2 text-lg font-medium border border-[#02ffdd] rounded-full ">
+          <button className="w-[119px] py-2 text-lg font-medium apply-button rounded-full ">
             Apply
           </button>
         </div>

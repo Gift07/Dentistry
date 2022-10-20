@@ -13,20 +13,20 @@ const Form = () => {
           <div className="text-white">
             <input
               placeholder="Name"
-              className="input-form w-full p-2 my-2 outline-none"
+              className="input-form w-full p-2 my-2 outline-none border-r border-[#00ffdd] focus:border "
             />
           </div>
           <div className="text-white">
             <input
               placeholder="Email"
-              className="input-form w-full p-2 my-2 outline-none"
+              className="input-form w-full p-2 my-2 outline-none border-r border-[#00ffdd] focus:border "
             />
           </div>
           <div className="text-white flex items-center my-2 relative">
             <div className="absolute z-20 pl-2">+91-</div>
             <input
               placeholder="Phone number"
-              className="input-form w-full outline-none pl-10"
+              className="input-form w-full outline-none pl-10 border-r border-[#00ffdd] focus:border"
             />
           </div>
           <div className="image-shadow -right-32 absolute" />

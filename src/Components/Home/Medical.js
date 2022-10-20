@@ -10,22 +10,22 @@ import Union from "../../assets/Ellipse 8.svg";
 
 const Medical = () => {
   return (
-    <div className="py-10 pt-16 md:py-12 lg:py-16 pl-6 md:pl-16 lg:px-24">
-      <div className="pt-16 md:pt-28 lg:pt-32 text-[1.7rem] md:text-3xl lg:text-5xl text-white w-full">
+    <div className="py-10 pt-16 md:py-12 lg:py-16  md:pl-16 lg:px-24">
+      <div className="pt-16 md:pt-28 lg:pt-32 pl-6 text-[1.7rem] md:text-3xl lg:text-5xl text-white w-full">
         <div className="flex items-center gap-x-[4px] lg:gap-x-2 ">
           <h1>Manufacture Of</h1>
           <h1 className="text-[#02ffdd]">Medical</h1>
         </div>
       </div>
-      <h1 className="text-white text-[1.7rem] md:text-3xl lg:text-5xl">
+      <h1 className="text-white text-[1.7rem] md:text-3xl lg:text-5xl pl-6">
         Equipments.
       </h1>
       <div className="w-full flex items-center justify-center my-8 relative">
         <img src={Group7} alt="group" className="h-[300px] z-20" />
         <div className="medical-shadow absolute top-2" />
       </div>
-      <div className="relative">
-        <p className="text-white text-sm lg:text-md font-lightpriego my-6 lg:my-10">
+      <div className="relative ">
+        <p className="text-white text-sm lg:text-md font-lightpriego my-6 lg:my-10 pl-6">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
           turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec
           fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus
@@ -35,13 +35,12 @@ const Medical = () => {
         </p>
         <div className="eclips absolute right-0 top-4" />
       </div>
-      <div className="relative py-3">
-        <div className="bg-[#02ffdd] shadow-2xl opacity-40 h-10 w-32 absolute rounded-full shadow-[#02ffdd]" />
-        <button className="px-5 py-2 text-lg font-semibold bg-[#02ffdd] rounded-full absolute z-10 button-shadow">
+      <div className=" py-3">
+        <button className="px-5 py-2 text-lg font-semibold bg-[#02ffdd] rounded-full absolute z-10 button-shadow ml-6">
           get started
         </button>
       </div>
-      <div className="flex items-center justify-center gap-x-2 my-20">
+      <div className="flex  items-center justify-center gap-x-4 my-20">
         <MedicalCard eclipse={Eclipse} frame={Frame2} />
         <MedicalCard eclipse={Eclipse} frame={Frame1} />
         <MedicalCard eclipse={Eclipse} frame={Frame3} />

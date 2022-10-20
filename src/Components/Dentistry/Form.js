@@ -19,7 +19,7 @@ const Form = () => {
             <div>
               <input
                 placeholder="Email"
-                className="py-3 px-6 my-3 text-[#212121] outline-none border-r border-[#02ffdd] border-opacity-30 shadow-2xl rounded-full focus:border-2 focus:border-[#02ffdd] bg-[#fff] w-full"
+                className="py-4 px-6 my-3  outline-none border-r border-[#02ffdd] border-opacity-30 shadow-2xl rounded-full focus:border-2 focus:border-[#02ffdd] bg-[#fff] w-full form-text"
               />
             </div>
             <div className="relative mb-20">

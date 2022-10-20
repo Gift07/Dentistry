@@ -15,10 +15,12 @@ import Footer from "../Components/Home/Footer";
 
 const Dentistry = () => {
   return (
-    <div className="bg-[#1E1E1E] min-h-screen font-poppins overflow-hidden">
-      <Welcome />
-      <Group />
-      <Dicipline />
+    <div className="bg-white min-h-screen font-poppins overflow-hidden">
+      <div className="bg-[#1e1e1e]">
+        <Welcome />
+        <Group />
+        <Dicipline />
+      </div>
       <Fees />
       <Course />
       <Paedatric />
