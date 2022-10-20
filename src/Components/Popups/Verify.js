@@ -10,10 +10,10 @@ const Verify = () => {
         <div className="flex items-center justify-center gap-x-6 my-4">
           <div>
             <div className="flex items-center justify-end text-2xl gap-x-2">
-              <h1 className="text-orange-500 font-kumbh font-black">50</h1>
+              <h1 className="text-[#ff8412] font-kumbh font-black">50</h1>
               <h1 className="font-black text-white font-kumbh">Cities</h1>
             </div>
-            <p className="my-2 text-xs text-white font-kumbh">
+            <p className="my-2 text-xs text-white font-kumbh font-semibold">
               Clinics around 50 cities.
             </p>
           </div>
@@ -43,8 +43,8 @@ const Verify = () => {
           </div>
           <img src={Person3} alt="person" className="h-24" />
         </div>
-        <div className="absolute top-[330px] -left-[1px]">
-          <hr className="w-[299px]" />
+        <div className="absolute top-[330px] -left-[0.7px]">
+          <hr className="w-[316px]" />
         </div>
         <div>
           <div className="px-6">
@@ -52,7 +52,7 @@ const Verify = () => {
               Verification Code
             </h1>
           </div>
-          <form>
+          <form className="font-inter text-sm">
             <div className="w-full flex items-center justify-center font-lightpriego gap-x-6">
               <div className="flex items-center justify-center py-3">
                 <input
@@ -82,7 +82,7 @@ const Verify = () => {
 
             <div className="py-3 w-full flex items-center justify-center">
               <button className=" w-11/12 py-3 uppercase bg-white rounded-full font-black font-kumbh text-[#2b275a] drop-shadow">
-                Verify
+                <h1 className=" font-kumbh button-text font-black">Verify</h1>
               </button>
             </div>
           </form>

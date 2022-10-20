@@ -46,8 +46,8 @@ const Register = () => {
           </div>
           <img src={Person3} alt="person" className="h-24" />
         </div>
-        <div className="absolute top-[330px] -left-[1px]">
-          <hr className="w-[299px]" />
+        <div className="absolute top-[330px] -left-[0.7px]">
+          <hr className="w-[316px]" />
         </div>
         <div>
           <div className="px-6">
