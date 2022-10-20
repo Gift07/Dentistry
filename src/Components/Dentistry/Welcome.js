@@ -47,10 +47,12 @@ const Welcome = () => {
         </p>
       </div>
       <div className="my-4 px-10 md:px-16  lg:px-24">
-        <div className="py-2 w-36 rounded-full flex items-center justify-center shadow-2xl shadow-[#0b0b0b]">
-          <button className="px-5 py-1 border-2 border-[#02ffdd] text-[#02ffdd] rounded-full font-bold text-xl">
-            Apply
-          </button>
+        <div className="my-6">
+          <div className="w-[163px] h-[58px] rounded-full shadow-button bg-[#1e1e1e] flex items-center justify-center ">
+            <button className="w-[145px] h-[40px] border-2 border-[#02ffdd] bg-[#0b0b0b] text-[#02ffdd] rounded-full font-bold">
+              Get started
+            </button>
+          </div>
         </div>
       </div>
     </div>

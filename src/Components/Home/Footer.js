@@ -8,12 +8,15 @@ const Footer = () => {
     <div
       className={`${
         pathname === "/dentistry" && "pt-56"
-      } w-full bg-[#0b0b0b] py-4 px-8 md:px-16 lg:px-24 text-white`}
+      } w-full bg-[#0b0b0b] py-4 px-6 md:px-16 lg:px-24 text-white`}
     >
       <div>
-        <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold text-[#02ffdd]">
+        <h1 className="text-[1.2rem] md:text-3xl lg:text-5xl  text-[#02ffdd]">
           DreamRoots Entertainment and
-          <br /> Technology Private Limited
+        </h1>
+        <h1 className="text-[1.2rem] md:text-3xl lg:text-5xl text-[#02ffdd]">
+          {" "}
+          Technology Private Limited
         </h1>
       </div>
       <div>

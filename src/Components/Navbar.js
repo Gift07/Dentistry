@@ -14,7 +14,7 @@ const Navbar = () => {
         <img
           src={Eclipse}
           alt="eclipse"
-          className="h-full w-full object-cover"
+          className="h-full w-full object-cover mix-blend-screen"
         />
       </div>
     </nav>

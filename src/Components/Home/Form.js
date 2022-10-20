@@ -9,7 +9,7 @@ const Form = () => {
         </h1>
       </div>
       <div>
-        <form className="font-lightpriego">
+        <form className="">
           <div>
             <input
               placeholder="Name"
@@ -18,14 +18,15 @@ const Form = () => {
           </div>
           <div>
             <input
-              placeholder="Name"
+              placeholder="Email"
               className="py-3 px-6 my-3 outline-none border-r border-[#02ffdd] border-opacity-30 shadow-2xl rounded-full focus:border-2 focus:border-[#02ffdd] bg-[#1e1e1e] w-full"
             />
           </div>
-          <div>
+          <div className="text-white flex items-center py-3 px-6 my-3 outline-none border-r border-[#02ffdd] border-opacity-30 shadow-2xl rounded-full focus:border-2 focus:border-[#02ffdd]">
+            +91-
             <input
-              placeholder="Name"
-              className="py-3 px-6 my-3 outline-none border-r border-[#02ffdd] border-opacity-30 shadow-2xl rounded-full focus:border-2 focus:border-[#02ffdd] bg-[#1e1e1e] w-full"
+              placeholder="Phone number"
+              className=" bg-[#1e1e1e] w-full h-full outline-none"
             />
           </div>
           <div className="relative py-6">

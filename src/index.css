@@ -2,10 +2,61 @@
 @tailwind components;
 @tailwind utilities;
 
-.shadow-button {
-  background: #2ec194;
-  box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.2),
-    15px 15px 15px rgba(0, 0, 0, 0.1),
-    inset -5px -5px 5px rgba(255, 255, 255, 0.2) inset 5px 5px 5px
-      rgba(0, 0, 0, 0.1);
+@font-face {
+  font-family: "Priego";
+  src: url("./fonts/Priego-Light.otf");
 }
+
+@font-face {
+  font-family: "Priego-Bold";
+  src: url("./fonts/Priego-Black.otf");
+}
+
+@font-face {
+  font-family: "Priego-Bolder";
+  src: url("./fonts/Priego-Bold.otf");
+}
+
+@font-face {
+  font-family: "Priego-Semi";
+  src: url("./fonts/Priego-SemiBold.otf");
+}
+
+button {
+  font-family: "Priego-Bolder";
+}
+h1 {
+  font-family: "Priego-Bold";
+}
+
+p {
+  font-family: "Priego";
+}
+
+.shadow-button {
+  filter: drop-shadow(-3px -3px 2px rgba(255, 255, 255, 0.2))
+    drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.2))
+    drop-shadow(15px 15px 15px rgba(0, 0, 0, 0.2));
+  box-shadow: inset -5px -5px 5px rgba(255, 255, 255, 0.2) inset 5px 5px 5px
+    rgba(0, 0, 0, 0.2);
+}
+
+.shadow-input {
+  filter: drop-shadow(-3px -3px 2px rgba(255, 255, 255, 0.1))
+    drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.1))
+    drop-shadow(15px 15px 15px rgba(0, 0, 0, 0.1));
+  box-shadow: inset -5px -5px 5px rgba(255, 255, 255, 0.1) inset 5px 5px 5px
+    rgba(0, 0, 0, 0.1);
+}
+
+.shadow-div {
+  filter: drop-shadow(-3px -3px 2px rgba(255, 255, 255, 0.2))
+    drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.2))
+    drop-shadow(15px 15px 15px rgba(0, 0, 0, 0.2));
+}
+
+.semibold {
+  font-family: "Priego-Semi";
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");

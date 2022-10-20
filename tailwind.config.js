@@ -7,13 +7,9 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
-      backgroundColor: {
-        radial:
-          "radial-gradient(49% 81% at 45% 47%, #FFE20345 0%, #073AFF00 100%),",
-      },
       fontFamily: {
-        poppins: ["Priego", "Sans-serif"],
-        lightpriego: ["Priego-light"],
+        poppins: ["Priego"],
+        kumbh: ["Kumbh Sans", "sans-serif"],
       },
     },
   },
@@ -21,44 +17,24 @@ module.exports = {
     plugin(function ({ addBase }) {
       addBase({
         "@font-face": {
-          fontFamily: "Priego-light",
-          fontWeight: "300",
-          src: "url(/src/fonts/Priego-light.ttf)",
+          fontFamily: "Priego",
+          fontWheight: "100",
+          src: "url(/src/fonts/Priego-thin.otf)",
         },
         "@font-face": {
           fontFamily: "Priego",
-          fontWeight: "200",
-          src: "url(/src/fonts/priego-extralight.otf)",
-        },
-        "@font-face": {
-          fontFamily: "Priego",
-          fontWeight: "300",
-          src: "url(/src/fonts/priego-light.otf)",
-        },
-        "@font-face": {
-          fontFamily: "Priego",
-          fontWeight: "400",
-          src: "url(/src/fonts/priego-medium.otf)",
-        },
-        "@font-face": {
-          fontFamily: "Priego",
-          fontWeight: "500",
-          src: "url(/src/fonts/priego-semibold.otf)",
+          fontWheight: "500",
+          src: "url(/src/fonts/Priego-SemiBold.otf)",
         },
         "@font-face": {
           fontFamily: "Priego",
           fontWheight: "600",
-          src: "url(/src/fonts/priego-bold.otf)",
-        },
-        "@font-face": {
-          fontFamily: "Priego",
-          fontWheight: "700",
-          src: "url(/src/fonts/priego-extrabold.otf)",
+          src: "url(/src/fonts/Priego-Bold.otf)",
         },
         "@font-face": {
           fontFamily: "Priego",
           fontWheight: "800",
-          src: "url(/src/fonts/priego-black.otf)",
+          src: "url(/src/fonts/Priego-Black.otf)",
         },
       });
     }),

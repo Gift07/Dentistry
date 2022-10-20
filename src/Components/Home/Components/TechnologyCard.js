@@ -11,7 +11,7 @@ const TechnologyCard = ({ Flutter, title }) => {
         />
       </div>
       <div>
-        <h1 className=" text-2xl lg:text-4xl font-semibold text-[#02ffdd]">
+        <h1 className=" text-xl lg:text-4xl semibold text-[#02ffdd]">
           {title}
         </h1>
       </div>

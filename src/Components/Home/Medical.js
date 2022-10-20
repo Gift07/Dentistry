@@ -10,22 +10,18 @@ import Union from "../../assets/Union.svg";
 
 const Medical = () => {
   return (
-    <div className="py-10 md:py-12 lg:py-16 px-8 md:px-16 lg:px-24">
-      <div className="pt-16 md:pt-28 lg:pt-32 text-[1.2rem] md:text-3xl lg:text-5xl font-bold text-white w-full">
+    <div className="py-10 pt-16 md:py-12 lg:py-16 px-6 md:px-16 lg:px-24">
+      <div className="pt-16 md:pt-28 lg:pt-32 text-2xl md:text-3xl lg:text-5xl text-white w-full">
         <div className="flex items-center gap-x-[4px] lg:gap-x-2 ">
           <h1>Manufacture Of</h1>
           <h1 className="text-[#02ffdd]">Medical</h1>
         </div>
       </div>
-      <h1 className="text-white font-bold text-2xl md:text-3xl lg:text-5xl">
+      <h1 className="text-white text-2xl md:text-3xl lg:text-5xl">
         Equipments.
       </h1>
       <div className="w-full flex items-center justify-center my-8">
-        <img
-          src={Group7}
-          alt="group"
-          className="h-[300px] drop-shadow-xl shadow-[#02ffdd]"
-        />
+        <img src={Group7} alt="group" className="h-[300px] bg-red-600" />
       </div>
       <div>
         <p className="text-white text-sm lg:text-md font-lightpriego my-6 lg:my-10">

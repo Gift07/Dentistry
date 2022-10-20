@@ -5,20 +5,20 @@ import Illustration from "../../assets/Illustration.svg";
 
 const Events = () => {
   return (
-    <div className="w-full py-6 lg:py-8 px-8 md:px-16 lg:px-24">
-      <div>
-        <div className="text-2xl md:text-3xl lg:text-5xl font-semibold text-white flex items-center lg:gap-x-2 ">
-          <h1 className="text-[#02ffdd]">Enlargements, Events</h1>
+    <div className="w-full py-6 lg:py-8 px-6 md:px-16 lg:px-24">
+      <div className="py-8">
+        <div className="flex items-center gap-x-2">
+          <div className="text-2xl md:text-3xl lg:text-5xl font-semibold text-white flex items-center lg:gap-x-2 ">
+            <h1 className="text-[#02ffdd]">Enlargements, Events</h1>
+          </div>
+          <h1 className="text-white font-semibold text-2xl md:text-3xl lg:text-5xl">
+            and
+          </h1>
         </div>
-        <h1 className="text-white font-semibold text-2xl md:text-3xl lg:text-5xl">
-          and
+        <h1 className="text-2xl md:text-3xl lg:text-5xl text-[#02ffdd] font-semibold flex items-center">
+          Retro-festo
         </h1>
       </div>
-      <h1 className="text-2xl md:text-3xl lg:text-5xl text-[#02ffdd] font-semibold flex items-center">
-        Retro
-        <AiOutlineMinus />
-        festo
-      </h1>
       <div className="w-full flex items-center justify-center  relative">
         <img
           src={Illustration}
@@ -50,7 +50,7 @@ const Events = () => {
         </button>
       </div>
       <div className="pt-12 w-full flex items-center justify-center">
-        <hr className="h-3 w-[200px] lg:w-[472px] bg-[#02ffdd] opacity-30 rounded-full" />
+        <hr className="h-3 w-[230px] lg:w-[472px] bg-[#02ffdd] opacity-30 rounded-full mt-12" />
       </div>
     </div>
   );
