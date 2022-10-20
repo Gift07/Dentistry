@@ -6,7 +6,7 @@ import Person3 from "../../assets/XMLID_336_.svg";
 const Verify = () => {
   return (
     <div className="z-50 fixed top-0 bg-transparent backdrop-blur-md backdrop-filter w-screen h-screen flex items-center justify-center">
-      <div className="w-11/12 md:w-8/12 lg:w-1/2 bg-[#2b275a] rounded-[3rem] p-2">
+      <div className="w-11/12 md:w-8/12 lg:w-1/2 bg-[#2b275a] rounded-[3rem] p-2 relative">
         <div className="flex items-center justify-center gap-x-6 my-4">
           <div>
             <div className="flex items-center justify-end text-2xl gap-x-2">
@@ -42,6 +42,9 @@ const Verify = () => {
             </p>
           </div>
           <img src={Person3} alt="person" className="h-24" />
+        </div>
+        <div className="absolute top-[330px] -left-[1px]">
+          <hr className="w-[299px]" />
         </div>
         <div>
           <div className="px-6">

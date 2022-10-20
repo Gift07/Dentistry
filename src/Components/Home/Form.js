@@ -2,7 +2,7 @@ import React from "react";
 
 const Form = () => {
   return (
-    <div className="py-8 pt-4 px-8 md:16 lg:px-24">
+    <div className="py-8 pt-4 px-8 md:16 lg:px-24 relative">
       <div>
         <h1 className="text-2xl md:text-3xl lg:text-5xl py-3 font-bold text-white">
           Contact us
@@ -10,30 +10,28 @@ const Form = () => {
       </div>
       <div>
         <form className="">
-          <div>
+          <div className="text-white">
             <input
               placeholder="Name"
-              className="py-3 px-6 my-3  outline-none border-r border-[#02ffdd] border-opacity-30 shadow-2xl rounded-full focus:border-2 focus:border-[#02ffdd] bg-[#1e1e1e] w-full"
+              className="input-form w-full p-2 my-2 outline-none"
             />
           </div>
-          <div>
+          <div className="text-white">
             <input
               placeholder="Email"
-              className="py-3 px-6 my-3 outline-none border-r border-[#02ffdd] border-opacity-30 shadow-2xl rounded-full focus:border-2 focus:border-[#02ffdd] bg-[#1e1e1e] w-full"
+              className="input-form w-full p-2 my-2 outline-none"
             />
           </div>
-          <div className="text-white flex items-center py-3 px-6 my-3 outline-none border-r border-[#02ffdd] border-opacity-30 shadow-2xl rounded-full focus:border-2 focus:border-[#02ffdd]">
-            +91-
+          <div className="text-white flex items-center my-2 relative">
+            <div className="absolute z-20 pl-2">+91-</div>
             <input
               placeholder="Phone number"
-              className=" bg-[#1e1e1e] w-full h-full outline-none"
+              className="input-form w-full outline-none pl-10"
             />
           </div>
+          <div className="image-shadow -right-32 absolute" />
           <div className="relative py-6">
-            <div className="bg-[#02ffdd] shadow-2xl opacity-40 h-14 w-10/12 absolute rounded-full shadow-[#02ffdd]" />
-            <button className="bg-[#02ffdd] shadow-2xl rounded-full  w-full flex items-center justify-center text-xl font-semibold py-4 text-black">
-              Submit
-            </button>
+            <button className="submit w-full">Submit</button>
           </div>
         </form>
       </div>

@@ -5,8 +5,11 @@ import Person3 from "../../assets/XMLID_336_.svg";
 
 const Register = () => {
   return (
-    <div className="z-50 fixed top-0 bg-transparent backdrop-blur-md backdrop-filter w-screen h-screen lg:min-h-screen lg:py-4 flex items-center justify-center">
-      <div className="w-11/12 md:w-8/12 lg:w-1/2 bg-[#2b275a] rounded-[3rem] p-2">
+    <div
+      className="z-50 fixed top-0 bg-transparent backdrop-blur-md backdrop-filter w-screen
+     h-screen lg:min-h-screen lg:py-4 flex items-center justify-center"
+    >
+      <div className="w-11/12 md:w-8/12 lg:w-1/2 bg-[#2b275a] rounded-[3rem] p-2 relative">
         <div className="flex items-center justify-center gap-x-6 my-4">
           <div>
             <div className="flex items-center justify-end text-2xl gap-x-2">
@@ -43,6 +46,9 @@ const Register = () => {
           </div>
           <img src={Person3} alt="person" className="h-24" />
         </div>
+        <div className="absolute top-[330px] -left-[1px]">
+          <hr className="w-[299px]" />
+        </div>
         <div>
           <div className="px-6">
             <h1 className="text-lg text-orange-400 font-semibold font-kumbh ">
@@ -62,9 +68,11 @@ const Register = () => {
                 className="text-center text-[#83828e] capitalize flex p-2 items-center justify-center w-11/12 h-[47px] rounded-full outline-none bg-[#2b275a] shadow-input"
               />
             </div>
-            <div className="py-3 w-full flex items-center justify-center">
-              <button className=" w-11/12 h-[50px] uppercase bg-white rounded-full font-kumbh font-black text-[#2b275a] drop-shadow">
-                Submit
+            <div className="py-3 w-full flex items-center justify-center ">
+              <button className=" w-11/12 h-[50px] uppercase bg-white rounded-full drop-shadow ">
+                <h1 className=" font-kumbh font-black text-transparent  bg-gradient-to-r from-[#ACA4FE] via-[#5C55AB] to-[#2B275A] bg-clip-text">
+                  Submit
+                </h1>
               </button>
             </div>
           </form>

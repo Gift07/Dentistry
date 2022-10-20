@@ -2,7 +2,7 @@ import React from "react";
 
 const TechnologyCard = ({ Flutter, title }) => {
   return (
-    <div className="w-full my-3 rounded-2xl shadow-2xl border-r border-[#02ffdd] border-opacity-30 py-4 lg:px-3 flex items-center gap-x-2 lg:gap-x-3">
+    <div className="tech-box w-[150px] h-[64px] lg:w-full lg:h-24 flex items-center gap-x-2 pl-2">
       <div>
         <img
           src={Flutter}

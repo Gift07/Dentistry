@@ -5,7 +5,7 @@ import Illustration from "../../assets/Illustration.svg";
 
 const Events = () => {
   return (
-    <div className="w-full py-6 lg:py-8 px-6 md:px-16 lg:px-24">
+    <div className="w-full py-6 lg:py-8 px-6 md:px-16 lg:px-24 relative">
       <div className="py-8">
         <div className="flex items-center gap-x-2">
           <div className="text-2xl md:text-3xl lg:text-5xl font-semibold text-white flex items-center lg:gap-x-2 ">
@@ -23,16 +23,18 @@ const Events = () => {
         <img
           src={Illustration}
           alt="illustration"
-          className="h-80 md:h-[26rem] lg:h-[28rem] z-50 shadow-[#02ffdd] filter drop-shadow-2xl"
+          className="h-80 md:h-[26rem] lg:h-[28rem] z-50 shadow-[#02ffdd]"
         />
         <div className="w-full absolute -top-18 -right-8 lg:-right-20">
           <img
             src={Grooup1}
             alt="group"
-            className="h-[32rem] -z-20 w-full object-cover"
+            className="h-[32rem] -z-20 w-full object-cover mix-blend-luminosity"
           />
         </div>
+        <div className="image-shadow absolute" />
       </div>
+      <div className="eclips absolute left-0 bottom-64" />
       <div>
         <p className="text-white font-lightpriego">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
@@ -44,8 +46,7 @@ const Events = () => {
         </p>
       </div>
       <div className="relative py-3">
-        <div className="bg-[#02ffdd] shadow-2xl opacity-40 h-10 w-32 absolute rounded-full shadow-[#02ffdd]" />
-        <button className="px-5 py-2 text-lg font-semibold bg-[#02ffdd] rounded-full absolute z-10">
+        <button className="px-5 py-2 text-lg font-semibold bg-[#02ffdd] rounded-full absolute z-10 button-shadow">
           get started
         </button>
       </div>

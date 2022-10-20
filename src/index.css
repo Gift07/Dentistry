@@ -34,11 +34,10 @@ p {
 }
 
 .shadow-button {
-  filter: drop-shadow(-3px -3px 2px rgba(255, 255, 255, 0.2))
-    drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.2))
-    drop-shadow(15px 15px 15px rgba(0, 0, 0, 0.2));
-  box-shadow: inset -5px -5px 5px rgba(255, 255, 255, 0.2) inset 5px 5px 5px
-    rgba(0, 0, 0, 0.2);
+  filter: drop-shadow(-3px -3px 2px rgba(255, 255, 255, 0.1))
+    drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.1))
+    drop-shadow(15px 15px 15px rgba(0, 0, 0, 0.1));
+  box-shadow: inset 5px 5px 5px #0b0b0b;
 }
 
 .shadow-input {
@@ -57,6 +56,111 @@ p {
 
 .semibold {
   font-family: "Priego-Semi";
+}
+
+.image-hue {
+  filter: drop-shadow(0.75em 0.75em 0.75em #02ffdd)
+    drop-shadow(0.75em 0.75em 0.75em rgba(0, 0, 0, 0.2));
+  opacity: 20px;
+}
+
+.home-button {
+  background: rgba(11, 11, 11, 0.1);
+  box-shadow: -10px -10px 20px rgba(255, 255, 255, 0.03),
+    10px 10px 20px rgba(0, 0, 0, 0.2),
+    inset -5px -5px 10px rgba(255, 255, 255, 0.05),
+    inset 5px 5px 10px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 30px;
+}
+
+.button-shadow {
+  box-shadow: 0px 0px 25px rgba(2, 255, 221, 0.25),
+    0px 0px 100px rgba(2, 255, 221, 0.25);
+}
+
+.medical-box {
+  box-sizing: border-box;
+
+  background: rgba(11, 11, 11, 0.1);
+  box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.02),
+    5px 5px 10px 3px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 20px;
+}
+
+.eclips {
+  width: 130px;
+  height: 130px;
+
+  background: #02ffdd;
+  filter: blur(120.5px);
+}
+
+.tec-ellipse {
+  width: 130px;
+  height: 130px;
+
+  background: #02ffdd;
+  filter: blur(120.5px);
+}
+
+.tech-box {
+  box-sizing: border-box;
+
+  background: rgba(11, 11, 11, 0.1);
+  box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.02),
+    5px 5px 10px 3px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 20px;
+}
+
+.blend {
+  mix-blend-mode: luminosity;
+  opacity: 0.3;
+}
+
+.input-form {
+  box-sizing: border-box;
+  height: 45px;
+
+  background: rgba(11, 11, 11, 0.1);
+  border: 1px solid #00ffdd;
+  backdrop-filter: blur(10px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 30px;
+}
+
+.submit {
+  height: 60px;
+
+  background: #02ffdd;
+  box-shadow: 0px 0px 25px rgba(2, 255, 221, 0.25),
+    0px 0px 100px rgba(2, 255, 221, 0.25);
+  border-radius: 50px;
+}
+
+.image-shadow {
+  width: 169px;
+  height: 169px;
+
+  background: #02ffdd;
+  filter: blur(120.5px);
+}
+
+.medical-shadow {
+  width: 117px;
+  height: 117px;
+
+  background: #02ffdd;
+  filter: blur(125px);
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
