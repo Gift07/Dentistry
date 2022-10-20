@@ -70,7 +70,9 @@ const Register = () => {
             </div>
             <div className="py-3 w-full flex items-center justify-center ">
               <button className=" w-11/12 h-[50px] uppercase bg-white rounded-full drop-shadow ">
-                <h1 className=" font-kumbh button-text font-black">Submit</h1>
+                <h1 className=" font-kumbh button-text font-black text-xl">
+                  Submit
+                </h1>
               </button>
             </div>
           </form>

@@ -50,7 +50,7 @@ const Verified = () => {
 
           <div className="py-3 w-full flex items-center justify-center">
             <button className="w-[318px] py-3 uppercase bg-white rounded-full font-black font-kumbh popup-submit">
-              <h1 className=" font-kumbh button-text font-black">
+              <h1 className=" font-kumbh button-text font-black text-xl">
                 Get started
               </h1>
             </button>

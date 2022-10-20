@@ -85,7 +85,9 @@ const Verify = () => {
             </div>
             <div className="py-3 w-full flex items-center justify-center">
               <button className=" w-11/12 py-3 uppercase bg-white rounded-full font-black font-kumbh popup-submit">
-                <h1 className=" font-kumbh button-text font-black">Verify</h1>
+                <h1 className=" font-kumbh button-text font-black text-xl">
+                  Verify
+                </h1>
               </button>
             </div>
           </form>
