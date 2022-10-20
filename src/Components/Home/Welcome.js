@@ -20,7 +20,7 @@ const Welcome = () => {
             </p>
           </div>
           <div className="my-6">
-            <div className="w-[163px] h-[58px] rounded-full home-button bg-[#1e1e1e] flex items-center justify-center">
+            <div className="w-[163px] h-[58px] rounded-full home-buttone bg-[#1e1e1e] flex items-center justify-center">
               <button className="w-[145px] h-[40px] border-2 border-[#02ffdd] bg-[#0b0b0b] text-[#02ffdd] rounded-full font-bold">
                 Get started
               </button>

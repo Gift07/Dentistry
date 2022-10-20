@@ -10,6 +10,7 @@ module.exports = {
       fontFamily: {
         poppins: ["Priego"],
         kumbh: ["Kumbh Sans", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
       },
     },
   },

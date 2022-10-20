@@ -13,10 +13,10 @@ const Register = () => {
         <div className="flex items-center justify-center gap-x-6 my-4">
           <div>
             <div className="flex items-center justify-end text-2xl gap-x-2">
-              <h1 className="text-orange-500 font-kumbh font-black">50</h1>
+              <h1 className="text-[#ff8412] font-kumbh font-black">50</h1>
               <h1 className="font-black text-white font-kumbh">Cities</h1>
             </div>
-            <p className="my-2 text-xs text-white font-kumbh">
+            <p className="my-2 text-xs text-white font-kumbh font-semibold">
               Clinics around 50 cities.
             </p>
           </div>
@@ -26,7 +26,7 @@ const Register = () => {
           <img src={Person2} alt="person" className="h-24" />
           <div>
             <div className="flex items-center justify-start text-2xl gap-x-2">
-              <h1 className="text-orange-500 font-black font-kumbh">1 Lakh</h1>
+              <h1 className="text-[#ff8412] font-black font-kumbh">1 Lakh</h1>
               <h1 className="font-black text-white font-kumbh">Patients</h1>
             </div>
             <p className="my-2 text-xs text-white font-kumbh font-semibold">
@@ -37,7 +37,7 @@ const Register = () => {
         <div className="flex items-center justify-center gap-x-6 my-2">
           <div>
             <div className="flex items-center justify-end text-2xl gap-x-2">
-              <h1 className="text-orange-500 font-black font-kumbh">60</h1>
+              <h1 className="text-[#ff8412] font-black font-kumbh">60</h1>
               <h1 className="font-black text-white font-kumbh">Clinics</h1>
             </div>
             <p className="my-2 text-xs text-white font-kumbh font-semibold">
@@ -51,7 +51,7 @@ const Register = () => {
         </div>
         <div>
           <div className="px-6">
-            <h1 className="text-lg text-orange-400 font-semibold font-kumbh ">
+            <h1 className="text-lg text-[#ff8412] font-black font-kumbh ">
               Register
             </h1>
           </div>
@@ -59,20 +59,18 @@ const Register = () => {
             <div className="w-full flex items-center justify-center py-3">
               <input
                 placeholder="Email Id"
-                className="text-center text-[#83828e] capitalize flex p-2 items-center justify-center w-11/12 h-[47px] rounded-full outline-none bg-[#2b275a] shadow-input"
+                className="text-center font-inter text-sm text-[#83828e] capitalize flex p-2 items-center justify-center w-11/12 h-[47px] rounded-full outline-none bg-[#2b275a] shadow-input"
               />
             </div>
             <div className="w-full flex items-center justify-center py-3">
               <input
                 placeholder="Phone number"
-                className="text-center text-[#83828e] capitalize flex p-2 items-center justify-center w-11/12 h-[47px] rounded-full outline-none bg-[#2b275a] shadow-input"
+                className="text-center font-inter text-sm text-[#83828e] capitalize flex p-2 items-center justify-center w-11/12 h-[47px] rounded-full outline-none bg-[#2b275a] shadow-input"
               />
             </div>
             <div className="py-3 w-full flex items-center justify-center ">
               <button className=" w-11/12 h-[50px] uppercase bg-white rounded-full drop-shadow ">
-                <h1 className=" font-kumbh font-black text-transparent  bg-gradient-to-r from-[#ACA4FE] via-[#5C55AB] to-[#2B275A] bg-clip-text">
-                  Submit
-                </h1>
+                <h1 className=" font-kumbh button-text font-black">Submit</h1>
               </button>
             </div>
           </form>
