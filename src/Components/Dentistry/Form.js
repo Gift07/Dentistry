@@ -30,8 +30,8 @@ const Form = () => {
               />
             </div>
             <div>
-              <button className="bg-[#02ffdd] shadow-2xl uppercase rounded-full  w-full flex items-center justify-center text-xl font-semibold py-4">
-                Submit
+              <button className="bg-[#02ffdd]  uppercase rounded-full  w-full flex items-center justify-center text-xl font-semibold py-4">
+                <h1>Submit</h1>
               </button>
             </div>
           </form>
