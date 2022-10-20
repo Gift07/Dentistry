@@ -57,31 +57,34 @@ const Verify = () => {
               <div className="flex items-center justify-center py-3">
                 <input
                   maxLength={1}
-                  className="text-center p-2 w-12 h-12 text-gray-100 flex items-center justify-center rounded-full outline-none bg-[#2b275a] shadow-input"
+                  className="text-center p-2 w-12 h-12 text-gray-100 flex items-center justify-center rounded-full outline-none popup-shadow"
                 />
               </div>
               <div className="flex items-center justify-center py-3">
                 <input
                   maxLength={1}
-                  className="text-center p-2 w-12 h-12 text-gray-100 flex items-center justify-center rounded-full outline-none bg-[#2b275a] shadow-input"
+                  className="text-center p-2 w-12 h-12 text-gray-100 flex items-center justify-center rounded-full outline-none popup-shadow"
                 />
               </div>
               <div className="flex items-center justify-center py-3">
                 <input
                   maxLength={1}
-                  className="text-center p-2 w-12 h-12 text-gray-100 flex items-center justify-center rounded-full outline-none bg-[#2b275a] shadow-input"
+                  className="text-center p-2 w-12 h-12 text-gray-100 flex items-center justify-center rounded-full outline-none popup-shadow"
                 />
               </div>
               <div className="flex items-center justify-center py-3">
                 <input
                   maxLength={1}
-                  className="text-center p-2 w-12 h-12 text-gray-100 flex items-center justify-center rounded-full outline-none bg-[#2b275a] shadow-input"
+                  className="text-center p-2 w-12 h-12 text-gray-100 flex items-center justify-center rounded-full outline-none popup-shadow"
                 />
               </div>
             </div>
-
+            <div className="w-full flex items-center justify-between px-6 text-white">
+              <h1 className="font-kumbh text-xs">Send Again</h1>
+              <h1 className="font-kumbh text-xs">00:30</h1>
+            </div>
             <div className="py-3 w-full flex items-center justify-center">
-              <button className=" w-11/12 py-3 uppercase bg-white rounded-full font-black font-kumbh text-[#2b275a] drop-shadow">
+              <button className=" w-11/12 py-3 uppercase bg-white rounded-full font-black font-kumbh popup-submit">
                 <h1 className=" font-kumbh button-text font-black">Verify</h1>
               </button>
             </div>

@@ -225,6 +225,24 @@ p {
   text-fill-color: transparent;
 }
 
+.popup-shadow {
+  background: #2b275a;
+  box-shadow: -5px -5px 10px #342f69, 5px 5px 10px #262254;
+  border-radius: 30px;
+}
+
+.popup-submit {
+  background: #f2f7fb;
+  box-shadow: -10px -10px 20px #342f69, 10px 10px 20px #262254;
+  border-radius: 30px;
+}
+
+.verified {
+  background: #2b275a;
+  box-shadow: -5px -5px 10px #342f69, 5px 5px 10px #262254;
+  border-radius: 30px;
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;500;700;900&display=swap");
