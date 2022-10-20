@@ -21,7 +21,7 @@ const Medical = () => {
         Equipments.
       </h1>
       <div className="w-full flex items-center justify-center my-8">
-        <img src={Group7} alt="group" className="h-[300px] bg-red-600" />
+        <img src={Group7} alt="group" className="h-[300px]" />
       </div>
       <div>
         <p className="text-white text-sm lg:text-md font-lightpriego my-6 lg:my-10">
