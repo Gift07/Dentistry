@@ -4,8 +4,8 @@ import Union from "../../assets/Union.svg";
 
 const Group = () => {
   return (
-    <div className="pt-8 md:pt-12 lg:pt-16 px-10 md:x-16 lg:px-24 relative bg-[#1e1e1e]">
-      <div className="w-full h-full flex items-center justify-center py-5">
+    <div className=" md:pt-12 lg:pt-16 px-10 md:x-16 lg:px-24 relative bg-[#1e1e1e]">
+      <div className="w-full h-full flex items-center justify-center">
         <img
           src={GroupImage}
           alt="group"
@@ -13,7 +13,7 @@ const Group = () => {
         />
         <div className="image-shadow absolute" />
       </div>
-      <div className="absolute right-0 -top-24">
+      <div className="absolute right-0 -top-40">
         <img src={Union} alt="union" className="h-96" />
       </div>
     </div>
