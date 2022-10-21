@@ -9,7 +9,7 @@ const Enroll = () => {
           <img
             src={Frame}
             alt="frame"
-            className="h-80 w-11/12 object-cover rounded-tl-[4rem] lg:hidden"
+            className="h-80 w-11/12 object-cover rounded-tl-[4rem] lg:hidden pl-5"
           />
           <div className="absolute top-0">
             <div className="pl-10 pt-6">
