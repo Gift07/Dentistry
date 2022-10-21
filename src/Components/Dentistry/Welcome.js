@@ -17,7 +17,7 @@ const Welcome = () => {
       <div className="w-full flex justify-center absolute -top-28">
         <div className="image-shadow" />
       </div>
-      <div className="pl-6 md:px-16 lg:px-24 my-8">
+      <div className="pl-6 md:px-16 lg:px-24 mt-16 mb-3">
         <div>
           <h1 className="text-3xl md:text-3xl lg:text-5xl font-bold text-white">
             Empowering the
