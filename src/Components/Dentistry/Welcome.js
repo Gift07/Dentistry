@@ -14,7 +14,7 @@ const Welcome = () => {
           <h1 className="text-white">Home</h1>
         </div>
       </div>
-      <div className="w-full flex justify-center absolute -top-12">
+      <div className="w-full flex justify-center absolute -top-28">
         <div className="image-shadow" />
       </div>
       <div className="pl-6 md:px-16 lg:px-24 my-8">
