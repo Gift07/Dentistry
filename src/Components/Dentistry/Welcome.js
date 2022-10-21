@@ -14,22 +14,24 @@ const Welcome = () => {
           <h1 className="text-white">Home</h1>
         </div>
       </div>
-      <div className="image-shadow absolute -top-28 right-28" />
+      <div className="w-full flex justify-center absolute -top-12">
+        <div className="image-shadow" />
+      </div>
       <div className="pl-6 md:px-16 lg:px-24 my-8">
         <div>
-          <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold text-white">
+          <h1 className="text-3xl md:text-3xl lg:text-5xl font-bold text-white">
             Empowering the
           </h1>
-          <div className=" flex items-center gap-x-2 my-2">
-            <h1 className="text-white font-bold text-2xl md:text-3xl lg:text-5xl ">
+          <div className=" flex items-center gap-x-2 my-1">
+            <h1 className="text-white font-bold text-3xl md:text-3xl lg:text-5xl ">
               World's next{" "}
             </h1>
-            <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold text-[#02ffdd]">
+            <h1 className="text-3xl md:text-3xl lg:text-5xl font-bold text-[#02ffdd]">
               Leaders
             </h1>
           </div>
         </div>
-        <div className="flex items-center gap-x-2 text-white font-bold text-2xl md:text-3xl lg:text-5xl   my-2">
+        <div className="flex items-center gap-x-2 text-white font-bold text-3xl md:text-3xl lg:text-5xl   my-1">
           <h1>and</h1>
           <h1 className="text-[#02ffdd]">Team Players</h1>
         </div>
@@ -41,7 +43,7 @@ const Welcome = () => {
       </div>
       <div className="my-4 pl-6 md:pl-16  lg:px-24">
         <div className="my-6">
-          <div className="w-[163px] h-[58px] rounded-full shadow-button bg-[#1e1e1e] flex items-center justify-center ">
+          <div className="w-[163px] h-[58px] rounded-full home-buttone flex items-center justify-center ">
             <button className="w-[145px] h-[40px] border-2 border-[#02ffdd] bg-[#0b0b0b] text-[#02ffdd] rounded-full font-bold">
               Get started
             </button>

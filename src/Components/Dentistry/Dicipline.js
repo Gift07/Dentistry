@@ -4,7 +4,7 @@ const Dicipline = () => {
   return (
     <div className="pt-8 md:pt-12 lg:pt-16 pl-6 md:px-16 lg:px-24 bg-[#1e1e1e] pb-3">
       <div className="w-full">
-        <div className=" flex items-center gap-x-2 text-white text-2xl md:text-3xl lg:text-5xl  font-bold">
+        <div className=" flex items-center gap-x-2 text-white text-3xl md:text-3xl lg:text-5xl  font-bold">
           <h1>Choose</h1>
           <h1 className="text-[#02ffdd]">Dicipline</h1>
         </div>

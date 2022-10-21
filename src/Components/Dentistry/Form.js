@@ -26,7 +26,7 @@ const Form = () => {
               <div className="absolute z-20 top-6 left-2">+91-</div>
               <input
                 placeholder="Phone number"
-                className="py-3 h-[45px] my-3 absolute outline-none pl-10 rounded-full focus:border-2 focus:border-[#02ffdd] bg-[#fff] w-full"
+                className="py-3 h-[45px] my-3 absolute outline-none pl-12 rounded-full focus:border-2 focus:border-[#02ffdd] bg-[#fff] w-full"
               />
             </div>
             <div>
