@@ -12,7 +12,7 @@ const Enroll = () => {
             className="h-80 w-11/12 object-cover rounded-tl-[4rem] lg:hidden"
           />
           <div className="absolute top-0">
-            <div className="pl-6 pt-5">
+            <div className="pl-10 pt-6">
               <div className="flex items-center gap-x-2">
                 <h1 className="text-3xl text-[#c82bd6]"> 25 Different</h1>
                 <h1 className="text-3xl text-[#02ffdd]">Dental</h1>
