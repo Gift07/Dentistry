@@ -44,9 +44,9 @@ const Welcome = () => {
       <div className="my-4 pl-6 md:pl-16  lg:px-24">
         <div className="my-6">
           <div className="w-[114px] h-[56px] rounded-full home-buttone flex items-center justify-center ">
-            <button className="w-[96px] h-[38px] border-2 border-[#02ffdd] bg-[#0b0b0b] text-[#02ffdd] rounded-full font-bold">
+            <div className="w-[96px] h-[38px] border-2 border-[#02ffdd] bg-[#0b0b0b] text-[#02ffdd] rounded-full font-bold flex items-center justify-center">
               Apply
-            </button>
+            </div>
           </div>
         </div>
       </div>

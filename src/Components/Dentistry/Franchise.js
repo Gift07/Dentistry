@@ -28,9 +28,9 @@ const Franchise = () => {
           className="hidden  lg:h-96  lg:object-cover lg:rounded-tl-[4rem] lg:rounded-br-[4rem]"
         />
         <div className="absolute right-8 lg:right-[22rem] bottom-8">
-          <button className="bg-[#02ffdd] w-[115px] h-[36px] flex items-center justify-center font-semibold text-lg rounded-full">
-            apply now
-          </button>
+          <span className="bg-[#02ffdd] w-[115px] h-[36px] flex items-center justify-center font-semibold text-lg rounded-full">
+            <h2>apply now</h2>
+          </span>
         </div>
       </div>
     </div>

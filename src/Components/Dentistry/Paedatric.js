@@ -39,9 +39,9 @@ const Paedatric = () => {
             </ol>
           </div>
           <div className="w-full flex items-center justify-end">
-            <button className="w-[119px] h-[36px] text-lg font-medium apply-button rounded-full flex items-center justify-center ">
-              Apply
-            </button>
+            <span className="w-[119px] h-[36px] text-lg font-medium apply-button rounded-full flex items-center justify-center">
+              <h2 className="font-black">Apply</h2>
+            </span>
           </div>
         </div>
       </div>

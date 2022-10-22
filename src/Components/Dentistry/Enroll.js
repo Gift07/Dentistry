@@ -16,7 +16,9 @@ const Enroll = () => {
           </div>
         </div>
         <div className="w-full flex items-center justify-end absolute pt-32 pr-10">
-          <button className="enroll h-9 w-[119px]">Enroll now</button>
+          <span className="enroll h-9 w-[119px] flex items-center justify-center">
+            <h2>Enroll now</h2>
+          </span>
         </div>
       </div>
       <img

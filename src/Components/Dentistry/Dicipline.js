@@ -38,21 +38,21 @@ const Dicipline = () => {
         </div>
       </div>
       <div className="py-4 w-full flex items-center justify-center my-3">
-        <button className=" w-11/12 border-2 dicipline-shadow h-[60px] text-[#02ffdd] text-xl">
-          Dentistry
-        </button>
+        <div className=" w-11/12 border-2 dicipline-shadow h-[60px] text-[#02ffdd] text-xl flex items-center justify-center">
+          <h1>Dentistry</h1>
+        </div>
       </div>
       <div className="w-full flex flex-col items-center justify-center">
         <div className="w-11/12 flex items-center justify-center mb-4">
           <div className="grid grid-cols-3 gap-3">
             {discipline_data.map((item) => (
-              <button
+              <div
                 key={item.id}
                 onClick={handleClick}
-                className="px-8 h-[35px] text-white font-semibold bg-[#0b0b0b] shadow-2xl rounded-full outline-none active:bg-[#0b0b0b]"
+                className="px-8 h-[35px] text-white font-semibold bg-[#0b0b0b] shadow-2xl rounded-full outline-none active:bg-[#0b0b0b] flex items-center justify-center"
               >
-                {item.name}
-              </button>
+                <h2>{item.name}</h2>
+              </div>
             ))}
           </div>
         </div>
