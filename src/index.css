@@ -248,6 +248,19 @@ p {
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
   border-radius: 50px;
 }
+.dentistry-box {
+  background: #fff;
+  padding-bottom: 12px;
+  box-shadow: 0px 0px 20px #ededed;
+  border-radius: 40px 0px;
+}
+.line {
+  width: 108px;
+  height: 0px;
+
+  opacity: 0.3;
+  border: 5px solid rgba(2, 255, 221, 0.5);
+}
 
 @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
 

@@ -24,6 +24,9 @@ const Enroll = () => {
         alt="frame"
         className="hidden  lg:h-96  lg:object-cover lg:rounded-tl-[4rem]"
       />
+      <div className="w-full flex items-center justify-center py-3">
+        <hr className="line" />
+      </div>
     </div>
   );
 };
