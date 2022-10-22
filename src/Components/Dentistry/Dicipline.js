@@ -3,12 +3,18 @@ import discipline_data from "../../Data/Discipline";
 
 const Dicipline = () => {
   const [isActive, setIsActive] = React.useState(false);
-  const removeFromState = () => {
-    setTimeout(function setActiveState() {
+  const [timeId, setTimeId] = React.useState("");
+  const removeFromState = (valid) => {
+    const timer = setTimeout(function setActiveState() {
       setIsActive(false);
     }, 4000);
+    setTimeId(timer);
   };
+  console.log(timeId);
   const handleClick = () => {
+    if (isActive) {
+      clearTimeout(timeId);
+    }
     setIsActive(true);
     removeFromState();
   };
@@ -33,7 +39,7 @@ const Dicipline = () => {
               <button
                 key={item.id}
                 onClick={handleClick}
-                className="px-8 h-[35px] text-white font-semibold bg-[#0b0b0b] shadow-2xl rounded-full outline-none"
+                className="px-8 h-[35px] text-white font-semibold bg-[#0b0b0b] shadow-2xl rounded-full outline-none active:bg-[#0b0b0b]"
               >
                 {item.name}
               </button>
@@ -41,15 +47,17 @@ const Dicipline = () => {
           </div>
         </div>
       </div>
-      <div className="my-3 pl-6">
-        {isActive && (
-          <div className="w-full flex items-center gap-x-2 text-sm">
-            <h1 className="text-[#02ffdd] uppercase font-semibold">Note: </h1>
-            <h1 className="text-white text-xs">
-              You have entered this page via Dentistry link.
-            </h1>
-          </div>
-        )}
+      <div className="pl-6">
+        <div className="w-full flex items-center gap-x-2 text-sm h-6">
+          {isActive && (
+            <>
+              <h1 className="text-[#02ffdd] uppercase font-semibold">Note: </h1>
+              <h1 className="text-white text-xs">
+                You have entered this page via Dentistry link.
+              </h1>
+            </>
+          )}
+        </div>
       </div>
     </div>
   );
