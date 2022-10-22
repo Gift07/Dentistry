@@ -4,7 +4,8 @@ import discipline_data from "../../Data/Discipline";
 const Dicipline = () => {
   const [isActive, setIsActive] = React.useState(false);
   const [timeId, setTimeId] = React.useState("");
-  const removeFromState = (valid) => {
+
+  const removeFromState = () => {
     const timer = setTimeout(function setActiveState() {
       setIsActive(false);
     }, 4000);
