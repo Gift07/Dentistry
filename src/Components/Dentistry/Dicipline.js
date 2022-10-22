@@ -16,21 +16,21 @@ const Dicipline = () => {
       </div>
       <div className="w-full flex flex-col items-center justify-center">
         <div className="w-11/12 flex items-center justify-center mb-4  gap-x-3">
-          <button className="w-1/3 py-3 text-white font-semibold bg-[#0b0b0b] shadow-2xl rounded-full">
+          <button className="px-8 h-[35px] text-white font-semibold bg-[#0b0b0b] shadow-2xl rounded-full">
             Arts
           </button>
-          <button className="w-1/3 py-3 text-white font-semibold bg-[#0b0b0b] shadow-2xl rounded-full">
+          <button className="px-8 h-[35px] text-white font-semibold bg-[#0b0b0b] shadow-2xl rounded-full">
             Dentist
           </button>
-          <button className="w-1/3 py-3 text-white font-semibold bg-[#0b0b0b] shadow-2xl rounded-full">
+          <button className="px-8 h-[35px] text-white font-semibold bg-[#0b0b0b] shadow-2xl rounded-full">
             Hygiene
           </button>
         </div>
         <div className="w-11/12 flex items-center  gap-x-3 px-2">
-          <button className="w-1/3 py-3 text-white font-semibold bg-[#0b0b0b] shadow-2xl rounded-full">
+          <button className="px-8 h-[35px] text-white font-semibold bg-[#0b0b0b] shadow-2xl rounded-full">
             Music
           </button>
-          <button className="w-1/3 py-3 text-white font-semibold bg-[#0b0b0b] shadow-2xl rounded-full">
+          <button className="px-8 h-[35px] text-white font-semibold bg-[#0b0b0b] shadow-2xl rounded-full">
             Drama
           </button>
         </div>

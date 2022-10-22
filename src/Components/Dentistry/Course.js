@@ -1,5 +1,5 @@
 import React from "react";
-import Frame from "../../assets/Frame 5.jpg";
+import Frame from "../../assets/Frame 5.png";
 import { BsDot } from "react-icons/bs";
 
 const Course = () => {
@@ -9,11 +9,7 @@ const Course = () => {
         <p className="text-3xl lg:text-4xl ">Courses</p>
       </div>
       <div className="w-full flex items-center justify-center py-4">
-        <img
-          src={Frame}
-          alt="frame"
-          className="h-80 w-11/12 object-cover rounded-tl-[4rem] lg:hidden"
-        />
+        <img src={Frame} alt="frame" className="h-[194px] lg:hidden" />
         <img
           src={Frame}
           alt="frame"
@@ -45,7 +41,7 @@ const Course = () => {
           </ol>
         </div>
         <div className="w-full flex items-center justify-end">
-          <button className="w-[119px] py-2 text-lg font-medium apply-button rounded-full ">
+          <button className="w-[119px] h-[36px] text-lg font-medium apply-button rounded-full flex items-center justify-center ">
             Apply
           </button>
         </div>
