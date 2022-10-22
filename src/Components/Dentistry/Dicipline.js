@@ -10,13 +10,22 @@ const Dicipline = () => {
     }, 4000);
     setTimeId(timer);
   };
-  console.log(timeId);
+
+  const countToFour = () => {
+    setTimeout(() => {
+      clearTimeout(timeId);
+      setIsActive(true);
+    }, 200);
+  };
   const handleClick = () => {
     if (isActive) {
-      clearTimeout(timeId);
+      setIsActive(false);
+      countToFour();
+      removeFromState();
+    } else {
+      setIsActive(true);
+      removeFromState();
     }
-    setIsActive(true);
-    removeFromState();
   };
 
   return (
