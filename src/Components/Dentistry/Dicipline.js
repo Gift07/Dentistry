@@ -2,7 +2,17 @@ import React from "react";
 import discipline_data from "../../Data/Discipline";
 
 const Dicipline = () => {
-  const [item, setItem] = React.useState({ id: 10, name: "Dentistry" });
+  const [isActive, setIsActive] = React.useState(false);
+  const removeFromState = () => {
+    setTimeout(function setActiveState() {
+      setIsActive(false);
+    }, 4000);
+  };
+  const handleClick = () => {
+    setIsActive(true);
+    removeFromState();
+  };
+
   return (
     <div className="pt-8 md:pt-12 lg:pt-16 md:px-16 lg:px-24 bg-[#1e1e1e] pb-3">
       <div className="w-full">
@@ -13,7 +23,7 @@ const Dicipline = () => {
       </div>
       <div className="py-4 w-full flex items-center justify-center my-3">
         <button className=" w-11/12 border-2 dicipline-shadow h-[60px] text-[#02ffdd] text-xl">
-          {item.name}
+          Dentistry
         </button>
       </div>
       <div className="w-full flex flex-col items-center justify-center">
@@ -22,8 +32,8 @@ const Dicipline = () => {
             {discipline_data.map((item) => (
               <button
                 key={item.id}
-                onClick={() => setItem(item)}
-                className="px-8 h-[35px] text-white font-semibold bg-[#0b0b0b] shadow-2xl rounded-full"
+                onClick={handleClick}
+                className="px-8 h-[35px] text-white font-semibold bg-[#0b0b0b] shadow-2xl rounded-full outline-none"
               >
                 {item.name}
               </button>
@@ -32,12 +42,14 @@ const Dicipline = () => {
         </div>
       </div>
       <div className="my-3 pl-6">
-        <div className="w-full flex items-center gap-x-2 text-sm">
-          <h1 className="text-[#02ffdd] uppercase font-semibold">Note: </h1>
-          <h1 className="text-white text-xs">
-            You have entered this page via Dentistry link.
-          </h1>
-        </div>
+        {isActive && (
+          <div className="w-full flex items-center gap-x-2 text-sm">
+            <h1 className="text-[#02ffdd] uppercase font-semibold">Note: </h1>
+            <h1 className="text-white text-xs">
+              You have entered this page via Dentistry link.
+            </h1>
+          </div>
+        )}
       </div>
     </div>
   );

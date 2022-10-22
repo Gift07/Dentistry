@@ -8,7 +8,7 @@ const Franchise = () => {
         <p className="text-2xl">Franchise</p>
       </div>
       <div className="w-full flex flex-col items-center justify-center py-4">
-        <div className="text-3xl lg:text-4xl font-semibold text-[#0b0b0b] w-full flex flex-col items-center justify-center">
+        <div className="text-2xl lg:text-4xl font-semibold text-[#0b0b0b] w-full flex flex-col items-center justify-center">
           <h1 className="text-[#c82bd6]">Dental Franchise Clinic</h1>
           <h1>Available </h1>
           <div className="flex items-center gap-x-2">

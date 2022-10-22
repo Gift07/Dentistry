@@ -7,7 +7,7 @@ const Dental = () => {
     <div className="w-full bg-white flex items-center justify-center">
       <div className="w-11/12 dentistry-box">
         <div className="w-full flex items-center justify-center">
-          <img src={Frame} alt="frame" className="h-[194px] lg:hidden" />
+          <img src={Frame} alt="frame" className="h-[194px] w-full lg:hidden" />
           <img
             src={Frame}
             alt="frame"
