@@ -1,12 +1,11 @@
 import React from "react";
 import Obj from "../../assets/OBJECTS.svg";
 import Union1 from "../../assets/Union1.svg";
-import Eclipse from "../../assets/Ellipse 10.svg";
 
 const Objects = () => {
   return (
     <div className="relative">
-      <div className="py-12 flex flex-col items-center justify-center relative">
+      <div className="py-12 xs:py-7 flex flex-col items-center justify-center relative">
         <div className="w-full flex items-center justify-center relative">
           <img src={Obj} alt="object" className=" h-[300px]" />
           <div className="image-shadow absolute" />

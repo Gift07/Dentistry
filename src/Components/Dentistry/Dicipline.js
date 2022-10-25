@@ -30,15 +30,15 @@ const Dicipline = () => {
   };
 
   return (
-    <div className="pt-8 md:pt-12 lg:pt-16 md:px-16 lg:px-24 bg-[#1e1e1e] pb-3">
+    <div className="pt-8 md:pt-12 lg:pt-16 md:px-16 lg:px-24 bg-[#1e1e1e] pb-3 xs:pt-6">
       <div className="w-full">
-        <div className="pl-6 flex items-center gap-x-2 text-white text-3xl md:text-3xl lg:text-5xl  font-bold">
+        <div className="pl-6 flex items-center gap-x-2 text-white text-3xl md:text-4xl lg:text-5xl xs:text-2xl xs:pl-2">
           <h1>Choose</h1>
           <h1 className="text-[#02ffdd]">Dicipline</h1>
         </div>
       </div>
       <div className="py-4 w-full flex items-center justify-center my-3">
-        <div className=" w-11/12 border-2 dicipline-shadow h-[60px] text-[#02ffdd] text-xl flex items-center justify-center">
+        <div className="w-11/12 border-2 dicipline-shadow h-[60px] text-[#02ffdd] text-xl flex items-center justify-center xs:h-[50px]">
           <h1>Dentistry</h1>
         </div>
       </div>
@@ -49,7 +49,7 @@ const Dicipline = () => {
               <div
                 key={item.id}
                 onClick={handleClick}
-                className="px-8 h-[35px] text-white font-semibold bg-[#0b0b0b] shadow-2xl rounded-full outline-none active:bg-[#0b0b0b] flex items-center justify-center"
+                className="px-8 h-[35px] xs:px-2 md:h-[40px] md:px-16 text-white font-semibold bg-[#0b0b0b] shadow-2xl rounded-full outline-none active:bg-[#0b0b0b] flex items-center justify-center"
               >
                 <h2>{item.name}</h2>
               </div>

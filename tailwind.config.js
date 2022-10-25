@@ -7,6 +7,9 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      screens: {
+        xs: { min: "250px", max: "350px" },
+      },
       fontFamily: {
         poppins: ["Priego"],
         kumbh: ["Kumbh Sans", "sans-serif"],

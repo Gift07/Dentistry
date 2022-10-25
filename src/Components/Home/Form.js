@@ -2,7 +2,7 @@ import React from "react";
 
 const Form = () => {
   return (
-    <div className="py-8 pt-4 px-8 md:16 lg:px-24 relative">
+    <div className="py-8 pt-4 px-8 md:px-16 lg:px-24 relative xs:px-2">
       <div>
         <h1 className="text-2xl md:text-3xl lg:text-5xl py-3 font-bold text-white">
           Contact us

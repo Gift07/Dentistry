@@ -9,12 +9,12 @@ const Group = () => {
         <img
           src={GroupImage}
           alt="group"
-          className="h-96 md:h-[28rem] lg:h-[30rem]"
+          className="h-96 md:h-[28rem] lg:h-[30rem] xs:h-80"
         />
         <div className="image-shadow absolute" />
       </div>
       <div className="absolute right-0 -top-40">
-        <img src={Union} alt="union" className="h-96" />
+        <img src={Union} alt="union" className="h-96 xs:h-80" />
       </div>
     </div>
   );

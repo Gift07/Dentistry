@@ -5,19 +5,22 @@ import Illustration from "../../assets/Illustration.svg";
 
 const Events = () => {
   return (
-    <div className="w-full py-6 lg:py-8 px-6 md:px-16 lg:px-24 relative">
-      <div className="py-8">
+    <div className="w-full py-6 lg:py-8 px-6 md:px-16 lg:px-24 relative xs:px-0 xs:pl-2">
+      <div className="py-8 xs:py-3">
         <div className="flex items-center gap-x-2">
-          <div className="text-2xl md:text-3xl lg:text-5xl font-semibold text-white flex items-center lg:gap-x-2 ">
+          <div className="text-2xl md:text-3xl lg:text-5xl font-semibold text-white flex items-center lg:gap-x-2 xs:text-xl">
             <h1 className="text-[#02ffdd]">Enlargements, Events</h1>
           </div>
-          <h1 className="text-white font-semibold text-2xl md:text-3xl lg:text-5xl">
+          <h1 className="text-white font-semibold text-2xl md:text-3xl lg:text-5xl xs:text-xl xs:hidden">
             and
           </h1>
         </div>
-        <h1 className="text-2xl md:text-3xl lg:text-5xl text-[#02ffdd] font-semibold flex items-center">
-          Retro-festo
-        </h1>
+        <div className="xs:flex xs:gap-x-2">
+          <h1 className="text-white hidden xs:flex xs:text-xl">and</h1>
+          <h1 className="text-2xl md:text-3xl lg:text-5xl text-[#02ffdd] font-semibold flex items-center xs:text-xl">
+            Retro-festo
+          </h1>
+        </div>
       </div>
       <div className="w-full flex items-center justify-center  relative">
         <img
@@ -46,7 +49,7 @@ const Events = () => {
         </p>
       </div>
       <div className="relative py-3">
-        <button className="px-5 py-2 text-lg font-semibold bg-[#02ffdd] rounded-full absolute z-10 button-shadow">
+        <button className="px-5 py-2 text-lg font-semibold bg-[#02ffdd] rounded-full absolute z-10 button-shadow xs:px-3">
           get started
         </button>
       </div>

@@ -5,8 +5,8 @@ import { BsDot } from "react-icons/bs";
 const Course = () => {
   return (
     <div className="w-full bg-white">
-      <div className="py-3 w-full flex items-center justify-center pt-10">
-        <p className="text-3xl lg:text-4xl ">Courses</p>
+      <div className="py-3 w-full flex items-center justify-center pt-10 xs:pt-6">
+        <p className="text-3xl lg:text-4xl xs:text-2xl ">Courses</p>
       </div>
       <div className="w-full flex items-center justify-center">
         <div className="w-11/12 dentistry-box">
@@ -14,16 +14,11 @@ const Course = () => {
             <img
               src={Frame}
               alt="frame"
-              className="h-[194px] w-full lg:hidden"
-            />
-            <img
-              src={Frame}
-              alt="frame"
-              className="hidden  lg:h-96  lg:object-cover lg:rounded-tl-[4rem]"
+              className="h-[194px] w-full lg:h-96 xs:h-[140px] md:h-80"
             />
           </div>
-          <div className=" px-10 lg:py-3 lg:px-80">
-            <h1 className="text-3xl lg:text-4xl font-black text-[#02ffdd]">
+          <div className=" px-10 lg:py-3 lg:px-24 xs:px-5 md:py-3">
+            <h1 className="text-3xl lg:text-4xl font-black text-[#02ffdd] xs:text-xl">
               The oral cavity
             </h1>
             <div>
@@ -47,7 +42,7 @@ const Course = () => {
               </ol>
             </div>
             <div className="w-full flex items-center justify-end">
-              <span className="w-[119px] h-[36px] text-lg font-medium apply-button rounded-full flex items-center justify-center">
+              <span className="w-[119px] h-[36px] md:h-[42px] text-lg font-medium apply-button rounded-full flex items-center justify-center">
                 <h2 className="font-black">Apply</h2>
               </span>
             </div>
